@@ -4,7 +4,6 @@ dict = {"country": ["Brazil", "Russia", "India", "China", "South Africa"],
        "population": [200.4, 143.5, 1252, 1357, 52.98] }
 
 import pandas as pd
-print('==---==', dir(pd))
 brics = pd.DataFrame(dict)
 print(brics)
 
@@ -18,14 +17,14 @@ print(brics)
 import pandas as pd
 
 # Import the cars.csv data: cars
-cars = pd.read_csv('Random Scripts/cars.csv')
+cars = pd.read_csv('Random Scripts/Python Tutorial/cars.csv')
 
 # Print out cars
 print(cars)
 
 # Import pandas and cars.csv
 import pandas as pd
-cars = pd.read_csv('Random Scripts/cars.csv', index_col = 0)
+cars = pd.read_csv('Random Scripts/Python Tutorial/cars.csv', index_col = 0)
 
 # Print out country column as Pandas Series
 print(cars['cars_per_cap'])
@@ -38,7 +37,7 @@ print(cars[['cars_per_cap', 'country']])
 
 # Import cars data
 import pandas as pd
-cars = pd.read_csv('Random Scripts/cars.csv', index_col = 0)
+cars = pd.read_csv('Random Scripts/Python Tutorial/cars.csv', index_col = 0)
 
 # Print out first 4 observations
 print(cars[0:4])
@@ -48,7 +47,7 @@ print(cars[4:6])
 
 # Import cars data
 import pandas as pd
-cars = pd.read_csv('Random Scripts/cars.csv', index_col = 1)
+cars = pd.read_csv('Random Scripts/Python Tutorial/cars.csv', index_col = 1)
 
 # Print out observation for Japan
 print(cars.iloc[2])
