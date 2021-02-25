@@ -67,6 +67,7 @@ def obtain_file(question):
     This is a function that helps the user locate files.
     """
     # TODO: allow for files to be chosen
+    # TODO: Fix this function
 
     correct_input = False
     current_directory = None
